@@ -1,0 +1,25 @@
+name: InfiniteBlocks
+version: 1.0.0
+main: com.swag.infiniteblocks.InfiniteBlocksPlugin
+api-version: 1.21
+author: Swag
+description: Infinite blocks plugin for Minecraft
+
+commands:
+  infblocks:
+    description: Main command for InfiniteBlocks
+    usage: /infblocks <get|reload> [player] [block_type]
+    aliases: [ib, infiniteblock]
+    permission: infiniteblocks.use
+
+permissions:
+  infiniteblocks.use:
+    description: Allows use of infinite blocks commands
+    default: op
+  infiniteblocks.admin:
+    description: Full access to infinite blocks
+    default: op
+  infiniteblocks.reload:
+    description: Allows reloading the InfiniteBlocks config
+    default: op
+

@@ -1,0 +1,115 @@
+# Global Settings
+settings:
+  default-scheme: "server_colors"
+
+# Scheme Definitions
+schemes:
+  pastel_rainbow:
+    item-name: "INFINITE %block%"
+    name-gradient:
+      - "#FF636A"
+      - "#FEB144"
+      - "#FDFD96"
+      - "#77DD77"
+      - "#9EC1CF"
+      - "#CEACE6"
+    item-lore:
+      - "%gradient_line%"
+      - "This block can be placed an %gradient_infinite% amount of times."
+      - "%gradient_line%"
+    blocks:
+      - STONE
+
+  strange_wood:
+    item-name: "INFINITE %block%"
+    name-gradient:
+      - "#38220f"
+      - "#967259"
+      - "#ece0d1"
+    item-lore:
+      - "%gradient_line%"
+      - "This block can be placed an %gradient_infinite% amount of times."
+      - "%gradient_line%"
+    blocks: []
+
+  redstone:
+    item-name: "INFINITE %block%"
+    name-gradient:
+      - "#FF7B7B"
+      - "#FF0000"
+      - "#704A4A"
+      - "#FF0000"
+      - "#FF7B7B"
+    item-lore:
+      - "%gradient_line%"
+      - "This block can be placed an %gradient_infinite% amount of times."
+      - "%gradient_line%"
+    blocks:
+      - REDSTONE_BLOCK
+
+  server_colors:
+    item-name: "INFINITE %block%"
+    name-gradient:
+      - "#C59CFF"
+      - "#FF0199"
+      - "#A900E4"
+    item-lore:
+      - "%gradient_line%"
+      - "This block can be placed an %gradient_infinite% amount of times."
+      - "%gradient_line%"
+    blocks:
+      - DIRT
+      - OAK_PLANKS
+      - OAK_SLAB
+      - SPRUCE_PLANKS
+      - SPRUCE_SLAB
+      - BIRCH_LOG
+      - BIRCH_PLANKS
+      - BIRCH_SLAB
+      - JUNGLE_LOG
+      - JUNGLE_PLANKS
+      - JUNGLE_SLAB
+      - ACACIA_LOG
+      - ACACIA_PLANKS
+      - ACACIA_SLAB
+      - DARK_OAK_LOG
+      - DARK_OAK_PLANKS
+      - DARK_OAK_SLAB
+      - MANGROVE_LOG
+      - MANGROVE_PLANKS
+      - MANGROVE_SLAB
+      - CHERRY_LOG
+      - CHERRY_PLANKS
+      - CHERRY_SLAB
+      - PALE_OAK_LOG
+      - PALE_OAK_PLANKS
+      - PALE_OAK_SLAB
+      - CRIMSON_STEM
+      - CRIMSON_PLANKS
+      - CRIMSON_SLAB
+      - WARPED_STEM
+      - WARPED_PLANKS
+      - WARPED_SLAB
+      - STONE_BRICKS
+      - DEEPSLATE
+      - GLASS
+      - GLASS_PANE
+      - SEA_LANTERN
+      - OCHRE_FROGLIGHT
+      - VERDANT_FROGLIGHT
+      - PEARLESCENT_FROGLIGHT
+      - TORCH
+      - SOUL_TORCH
+      - SOUL_LANTERN
+      - COPPER_LANTERN
+      - CAMPFIRE
+      - SOUL_CAMPFIRE
+      - END_ROD
+      - GLOWSTONE
+      - QUARTZ_BLOCK
+      - SHROOMLIGHT
+      - COPPER_TORCH
+      - GRASS_BLOCK
+      - LANTERN
+      - SPRUCE_LOG
+      - OAK_LOG
